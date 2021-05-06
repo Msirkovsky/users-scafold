@@ -1,0 +1,271 @@
+a { cursor: pointer; }
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-danger {
+    background-color: #b24545;
+    border-color: #b24545
+}
+
+.btn-toolbar {
+	padding-top: 10px;
+}
+
+.spinner {
+	width: 40%;
+}
+
+.spinner-span {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+}
+
+.messages {
+	margin-top: 20px;
+}
+
+/* .navbar-brand {
+    min-width: 200px;
+} */
+
+.navbar-default {
+    background-color: white;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: lightblue;
+}
+
+
+.has-error {
+	border-color: #a94442;
+}
+
+.rw-input {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.top-panel {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.maintain-aspect-ratio-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.maintain-aspect-ratio-dummy {
+    margin-top: 100%;
+}
+
+.maintain-aspect-ratio-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.transparent-dialog .modal-content {
+    background-color: rgba(100, 200, 255, 0.6);
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+@keyframes example {
+    0% {background-color: rgba(0, 0, 0, 0.1);}
+    50% {background-color: rgba(0,0, 0, 0.4);}
+    100% {background-color: rgba(0, 0, 0, 0.1);}
+}
+
+.selected-ui-element>div {
+    animation: example 3s infinite;
+}
+
+.ui-control-icon {
+    height: 170px;
+    background: white;
+    display: inline-block;
+}
+
+.modal-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+ /*   background-color: rgba(100, 100, 100, 0.7);*/
+}
+
+.modal-overlay-buttons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 5px;
+    z-index: 1000;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
+.modal-overlay-content {
+    z-index: 10;
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.dashboard-tile {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: solid 2px darkolivegreen;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.base-request-tile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    margin: 30px;    
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+}
+
+.dashboard-tile-wrapper{
+    display: inline-block;
+    cursor: pointer;
+}
+.dashboard-tile-title{
+    text-align: center;
+}
+
+.users-tile{
+    background-image: url('images/users.svg');
+}
+
+.even {
+    background-color: lightgrey;
+}
+.odd {
+    background-color: white;
+}
+
+.car-row {
+    padding: 2px;
+}
+
+.car-row .form-group
+{
+    margin-bottom:0px;
+}
+
+.car-row .radio, .car-row .checkbox
+{
+    margin-bottom:0px;
+    margin-top:0px;
+    
+}
+
+
+.distance-matrix-col {
+    width: 80px;
+    height: 32px;
+    padding: 2px;
+    display: inline-block;
+}
+
+
+.no-spinner {
+    padding-right: 0px;
+}
+
+.no-spinner > span.rw-select {
+    display: none;
+    padding: 0px;
+}
+
+.no-spinner > input.rw-input {
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center
+}
+
+.logo{
+
+    /*background-image: url("images/logo-2x.png");*/
+    width: 100%; /*300px;*/
+    height: 50px; 
+    background-repeat: no-repeat;
+    background-position: center;    
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.vertical-text {
+/* writing-mode: vertical-rl; */
+    font-size: 18px;
+    overflow-wrap: break-word;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-left: 20px;
+}
+
+/* notification for user */
+.notiForUserWrapper{
+    width: 30%;
+} 
+
+.icon-select {
+    height: 31px;
+}
+
+.icon-select-icon {
+    display: inline-block;
+    width : 31px;
+    height: 31px;
+    opacity: 0.3;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon-select-icon.selected {
+    opacity: 1.0;
+    cursor: not-allowed;
+}
+

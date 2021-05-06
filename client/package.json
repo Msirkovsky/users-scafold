@@ -1,0 +1,45 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts-ts": "2.13.0",
+    "axios": "0.17.1",
+    "bootstrap": "3.3.7",
+    "dom-helpers": "3.2.1",
+    "font-awesome": "4.7.0",
+    "mobx": "3.4.1",
+    "mobx-react": "4.3.5",
+    "moment": "2.20.1",
+    "react-bootstrap": "0.32.0",
+    "prop-types": "15.6.0",
+    "react-notification-system": "0.2.16",
+    "react-widgets": "4.1.2",
+    "react-widgets-moment": "4.0.5",
+    "react-widgets-simple-number": "4.1.1",
+    "url-pattern": "1.0.3",
+    "classnames": "2.2.5",
+    "core-js": "2.5.3",
+    "js-base64": "2.4.3",
+    "saboteur-data-table": "0.0.6"
+  },
+  "devDependencies": {
+    "@types/webpack": "3.8.3",
+    "@types/webpack-env": "1.13.3",
+    "@types/react-notification-system": "0.2.35",
+    "@types/classnames": "2.2.3",
+    "@types/react-bootstrap": "0.32.0",
+    "@types/js-base64": "2.3.1",
+    "typescript": "2.8.1",
+    "saboteur-swagger-generator": "0.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "eject": "react-scripts-ts eject",
+    "swag-local": "saboteur-swagger-generator http://localhost:7000/swagger/v1/swagger.json src/generated",
+    "swag-test": "saboteur-swagger-generator https://crm.inpap.eu:444/swagger/v1/swagger.json src/generated"
+  }
+}

@@ -1,0 +1,36 @@
+$prefix:"mad-";
+
+$colP:#77c27a; //orange
+$colS:#1c1d30; //blue
+$col1:#323253; //green
+$col2:#4e4f6d; //blue
+
+$colL:#9E9E9E; //white
+$colD:#757575; //dark blue
+$colW:#fff; //white
+$colB:#000; //black
+
+$spaceSize: 7.5;
+// //////////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////////////
+// colors
+.#{$prefix}colP{ color: $colP; }
+.#{$prefix}colS{ color: $colS; }
+.#{$prefix}col1{ color: $col1; }
+.#{$prefix}col2{ color: $col2; }
+
+.#{$prefix}colL{ color: $colL; }
+.#{$prefix}colD{ color: $colD; }
+.#{$prefix}colW{ color: $colW; }
+.#{$prefix}colB{ color: $colB; }
+
+// background
+.#{$prefix}bg-colP{ background-color: $colP; }
+.#{$prefix}bg-colS{ background-color: $colS; }
+.#{$prefix}bg-col1{ background-color: $col1; }
+.#{$prefix}bg-col2{ background-color: $col2; }
+
+.#{$prefix}bg-colL{ background-color: $colL; }
+.#{$prefix}bg-colD{ background-color: $colD; }
+.#{$prefix}bg-colW{ background-color: $colW; }
+.#{$prefix}bg-colB{ background-color: $colB; }

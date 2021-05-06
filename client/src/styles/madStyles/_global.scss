@@ -1,0 +1,381 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+}
+a{
+  color: inherit;
+}
+nav{
+  a{
+
+  }
+}
+
+ul{
+  li{
+
+  }
+  
+}
+
+// default
+.#{$prefix}display-1{
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.#{$prefix}display-2{
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.#{$prefix}display-3{
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -.005em;
+  line-height: 120%;
+}
+.#{$prefix}display-4{
+  font-size: 112px;
+  font-weight: 300;
+  letter-spacing: -.01em;
+  line-height: 120%;
+}
+// h1
+.#{$prefix}headline{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  color: $colD;
+}
+// h2
+.#{$prefix}title{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: .005em;
+  color: $colD;
+}
+// h3
+.#{$prefix}subhead{
+  font-weight: 600;
+  letter-spacing: .01em;
+  font-size: 16px;
+  line-height: 24px;
+}
+// h4
+.#{$prefix}caption{
+  font-size: 12px;
+  letter-spacing: .02em;
+  font-weight: 400;
+  color: grey;
+}
+.#{$prefix}body-1{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+.#{$prefix}body-2{
+  font-size: 16px;
+  font-weight: 800; // edite: 400
+  letter-spacing: .01em;
+  line-height: 24px;
+}
+
+.#{$prefix}grid-container{
+  display: grid;
+  grid-template-columns: [start] 1fr [cstart] 83px [col1] 83px [col2] 83px [col3] 83px [col4] 83px [col5] 83px [col6] 83px [col7] 83px [col8] 83px [col9] 83px [col10] 83px [col11] 83px [col12] 83px [cend] 1fr [end];
+  grid-template-rows: auto;
+  margin: none;
+  max-width: none;
+}
+
+$grid-sizes: start cstart col1 col2 col3 col4 col5 col6 col7 col8 col9 col10 col11 col12 cend end;
+@each $grid in $grid-sizes{
+  @each $grid2 in $grid-sizes{
+    .#{$prefix}grid-#{$grid}-#{$grid2}{
+      grid-column: #{$grid} / #{$grid2};
+    }
+  }
+}
+
+.#{$prefix}box-content{
+  box-sizing: content-box;
+}
+.#{$prefix}box-border{
+  box-sizing: border-box;
+}
+
+
+
+$inputPadding: 4px 0;
+.inputWrapper{
+  label{
+    line-height: 22px;
+  }
+  input:not([type="submit"]):not([type="button"]){
+    height: 2.429em;
+  }
+  input:not([type="submit"]):not([type="button"]),
+  textarea{
+    padding: $inputPadding;
+    &:focus{
+      padding-bottom: 3px;
+    }
+  }
+  textarea{
+    min-height: 2.429em;
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus{
+  color: $colW;
+  background-color: lighten($colP, 20);
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+  color: $colW;
+  background-color: $colP;
+}
+.#{$prefix}nav{
+  position: fixed;
+
+  .material-icons{
+    font-size: 20px;
+  }
+  li{
+    width: 100%;
+    a{
+      padding: 16px 8px;
+    }
+  }
+}
+.#{$prefix}nav{
+  .container-fluid{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+// 3TH PARTY
+.dataTable{
+  a{
+    color: $colP;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
+.row{
+  &:before,
+  &:after{
+    content: none;
+  }
+}
+[class^="col-"]{
+  float: none;
+  &:first-of-type{
+    // padding-left: 0;
+  }
+  &:last-of-type{
+    // padding-right: 0;
+  }
+}
+.form-group{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.navbar-collapse{
+  padding: 0;
+  width: 100%;
+  &.collapse{
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  a{
+    padding: 16px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+label{
+  line-height: 22px;
+  color: $colL;
+  font-weight: 400;
+  // text-transform: capitalize;
+  font-size: 13px;
+}
+.icon-select{
+  i{
+    margin: 0 10px;
+    font-size: 24px;
+  }
+}
+.control-label{
+  margin-bottom: 0;
+}
+.rw-select-bordered{
+  border-left: none;
+}
+.rw-datetime-picker .rw-widget{
+  min-height: 2.429em;
+}
+.rw-input{
+  padding: $inputPadding;
+}
+.rw-widget-input, .rw-filter-input{
+  box-shadow: none;
+}
+.form-control,
+.rw-widget-container{
+  padding-bottom: 1px;
+  border: none;
+  border-bottom: 1px solid $colL;
+  border-radius: 0;
+  color: $colD; 
+  font-size: 16px;
+  box-shadow: none;
+  transition: all .2s;
+  &:focus{
+    border-color: $colP;
+    box-shadow: none;
+  }
+}
+.rw-state-focus>.rw-widget-container,
+.rw-state-focus>.rw-widget-container:hover{
+  border-color: $colP;
+  box-shadow: none;
+  border-width: 2px;
+  padding-bottom: 0;
+}
+
+#icBtn{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.nav.nav-tabs{
+  border: 0;
+  li{
+    margin-bottom: 0;
+    border: 0;
+    &.active a{
+      color: $colP;
+      background-color: lighten($colL, 35);
+    }
+  }
+}
+.tab-content{
+  position: relative;
+}
+
+
+// material checkobx
+
+$md-checkbox-margin: 16px 0;
+$md-checkbox-checked-color: $colP;
+$md-checkbox-border-color: rgba(0, 0, 0, 0.54);
+$md-checkbox-border-color-disabled: rgba(0, 0, 0, 0.26);
+$md-checkbox-checked-color-disabled: rgba(0, 0, 0, 0.26);
+
+$md-checkbox-size: 20px;
+$md-checkbox-padding: 4px;
+
+$md-checkmark-width: 2px;
+$md-checkmark-color: #fff;
+
+.mad-checkbox {
+  label{
+    padding-left: 28px;
+    line-height: 22px;
+    font-size: 16px;
+    color: $colD;
+  }
+  input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+    &:checked:before{
+      content: "";
+      background-color: $colP;
+      border-color: $colP;
+    }
+    &:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 20px;
+      top: 0;
+      width: 20px;
+      border: 2px solid $colD;
+      background-color: $colW;
+      border-radius: 2px;
+      z-index: 1;
+      pointer-events: none;
+      transition: all .2s;
+    }
+    &:checked:after{
+      content: "\E5CA";
+      font-family: 'Material Icons';
+      font-weight: 900;
+      // transform: rotate(45deg);
+      position: absolute;
+      left: 0;
+      height: 20px;
+      top: 0;
+      width: 20px;
+      z-index: 2;
+      line-height: 20px;
+      font-size: 15px;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+.#{$prefix}list-item:not(:last-of-type) {
+  border-bottom: 1px solid rgba($colL, .3);
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+
+// colors
+.#{$prefix}colP{ color: $colP; }
+.#{$prefix}colS{ color: $colS; }
+.#{$prefix}col1{ color: $col1; }
+.#{$prefix}col2{ color: $col2; }
+
+.#{$prefix}colL{ color: $colL; }
+.#{$prefix}colD{ color: $colD; }
+.#{$prefix}colW{ color: $colW; }
+.#{$prefix}colB{ color: $colB; }
+
+// background
+.#{$prefix}bg-colP{ background-color: $colP; }
+.#{$prefix}bg-colS{ background-color: $colS; }
+.#{$prefix}bg-col1{ background-color: $col1; }
+.#{$prefix}bg-col2{ background-color: $col2; }
+
+.#{$prefix}bg-colL{ background-color: $colL; }
+.#{$prefix}bg-colD{ background-color: $colD; }
+.#{$prefix}bg-colW{ background-color: $colW; }
+.#{$prefix}bg-colB{ background-color: $colB; }

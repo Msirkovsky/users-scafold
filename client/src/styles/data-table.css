@@ -1,0 +1,121 @@
+.dttable.nonresponsive {
+	width: 100%;
+	min-width: 800px;
+}
+
+.dt-table-rows-wrapper {
+    display: inline-block;
+    position: relative;
+    min-height: 100px;
+}
+
+.dt-table-loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(150, 150, 150, 0.4);
+    background-image: url('images/spinner.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.dttable {
+    font-size: 12px;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+	justify-content: flex-start;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.dtrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*min-height: 20px;*/
+	overflow: hidden;
+}
+
+.dtfilterrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*min-height: 20px;*/
+	overflow: hidden;
+}
+
+.dtheaderrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.dtpagerrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+	/*background-color: deepskyblue;*/
+	margin: 2px;
+	padding: 5px 5px;
+}
+
+.dtcell {
+	display: flex;
+	flex: 0 1 auto;
+	flex-grow: 1;
+	align-items: center;
+	padding: 2px;
+	margin: 2px;
+	min-width: 0;
+	min-height: 30px;
+}
+
+div.dtrow div.dtcell {
+	background-color: #EAEAEA;
+}
+
+div.dtrow.odd div.dtcell {
+    /*background-color: lightblue;*/
+    background-color:white;
+}
+
+
+.dtheadercell {
+	user-select: none;
+    display: flex;
+	flex: 0 1 auto;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: space-around;
+    /*background-color: lightblue;*/
+    background-color: #77c27a;
+    color:white;
+    
+	padding: 2px;
+	margin: 2px;
+	min-width: 0;
+	min-height: 30px;
+	cursor: pointer;
+}
+
+.dtfiltercell {
+    display: flex;
+	flex: 0 1 auto;
+	flex-grow: 1;
+	background-color: lightgray;
+	padding: 2px;
+	margin: 2px;
+	min-width: 0;
+	min-height: 30px;
+}
+
+.dtpagerrow-new-record{
+    margin-left: auto;
+}

@@ -1,0 +1,257 @@
+h2{
+    font-size: 20px;
+}
+
+
+.form-group
+{
+    margin-bottom: 2px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.ml-20{
+    margin-left: 20px;   
+}
+.mt-50{
+    margin-top: 50px;   
+}
+
+.mt-20{
+    margin-top: 20px;   
+}
+
+.mt-25{
+    margin-top: 25px;   
+}
+
+body{
+    font-size: 12px;
+}
+
+.form-control{
+    font-size: 12px;
+    height: auto;
+}
+
+.btn{
+    font-size: 12px;
+}
+
+.form-group {
+    min-width: 10px;
+}
+
+
+.dtheadercell{
+    min-height:25px;
+}
+
+.dtfiltercell{
+    min-height:auto;
+}
+
+
+.dtcell{
+    min-height:auto;   
+}
+
+.upperH2{
+    margin-top:5px;
+    margin-bottom:25px;
+}
+
+.dt-table-rows-wrapper{
+    min-height: 50px;
+}
+
+
+.compactForm .form-control{
+    margin: 0px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.compactForm .rw-input{
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    
+}
+
+.compactForm .rw-widget-picker{
+    height: 27px;
+}
+
+.compactForm .rw-widget-container{
+    border-radius: 2px;
+}
+
+
+.dochazkaGrid{
+    height: 414px;
+    overflow-y: auto;
+    border-top: 1px solid #A0A0A0;
+}
+
+.simpleBtnGroup button{
+    margin-right: 5px;
+}
+
+.simleBtnVertGroup button{
+    margin-bottom: 5px;
+}
+
+
+/*
+.btn-default {background: rgba(255, 255, 255, 1); background: -webkit-linear-gradient(top, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 100%); background: linear-gradient(to bottom, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(51, 51, 51, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+.btn-default:hover {background: rgba(235, 235, 235, 1); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+.btn-default:active, .btn-default:focus {background: rgba(235, 235, 235, 1); background: -webkit-linear-gradient(top, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); background: linear-gradient(to bottom, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+*/
+
+
+/*
+.btn-default {background: rgba(255, 255, 255, 1); background: -webkit-linear-gradient(top, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 100%); background: linear-gradient(to bottom, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(51, 51, 51, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+.btn-default:hover {background: rgba(235, 235, 235, 1); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+.btn-default:active, .btn-default:focus {background: rgba(235, 235, 235, 1); background: -webkit-linear-gradient(top, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); background: linear-gradient(to bottom, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+*/
+
+/*http://bootstrapdesigntools.com/tools/bootstrap-button-designer/*/
+/*
+.btn-default {background: rgba(255, 255, 255, 1); background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(255, 255, 255, 1) 100%); background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(255, 255, 255, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(51, 51, 51, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+.btn-default:hover {background: rgba(235, 235, 235, 1); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+.btn-default:active, .btn-default:focus {background: rgba(235, 235, 235, 1); background: -webkit-linear-gradient(top, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); background: linear-gradient(to bottom, rgba(179, 175, 175, 1) 0%, rgba(235, 235, 235, 1) 100%); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+*/
+
+/*
+.btn-default {background: rgba(147, 173, 230, 1); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(147, 173, 230, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(147, 173, 230, 1) 100%); border-color: rgba(204, 204, 204, 1); color: rgba(51, 51, 51, 1); font-size: 14px; border-radius: 4px; border-width: 1px;}
+.btn-default:hover {background: rgba(191, 206, 255, 1); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+.btn-default:active, .btn-default:focus {background: rgba(235, 235, 235, 1); border-color: rgba(173, 173, 173, 1); color: rgba(51, 51, 51, 1);}
+*/
+
+
+.btn-form{
+    background-color: #77c27a;
+    color: white;
+}
+
+.btn-form:hover {
+    background-color: #015DAD !important;;
+    color: white;
+  }
+  
+.btn-form.disabled, .btn-form[disabled]
+.btn-form[disabled]:hover
+{
+    background-color: #015DAD;
+    color: white;
+}
+
+
+.btn-form:focus, .btn-form.focus
+{
+    background-color: #015DAD;
+    color: white;
+}
+
+.btn-form:active:hover,
+.btn-form.active.focus
+{
+    background-color: #015DAD;
+    color: white;
+}
+  
+
+
+/*all cols*/
+
+.compact .col-xs-1, .compact .col-sm-1, .compact .col-md-1, .compact .col-lg-1, .compact .col-xs-2, .compact .col-sm-2, 
+.compact .col-md-2, .compact .col-lg-2, .compact .col-xs-3, .compact .col-sm-3, .compact .col-md-3, .compact .col-lg-3, 
+.compact .col-xs-4, .compact .col-sm-4, .compact .col-md-4, .compact .col-lg-4, .compact .col-xs-5, .compact .col-sm-5, .compact .col-md-5, 
+.compact .col-lg-5, .compact .col-xs-6, .compact .col-sm-6, .compact .col-md-6, .compact .col-lg-6, .compact .col-xs-7, .compact .col-sm-7, 
+.compact .col-md-7, .compact .col-lg-7, .compact .col-xs-8, .compact .col-sm-8, .compact .col-md-8, .compact .col-lg-8, .compact .col-xs-9, 
+.compact .col-sm-9, .compact .col-md-9, .compact .col-lg-9, .compact .col-xs-10, .compact .col-sm-10, .compact .col-md-10, .compact .col-lg-10, 
+.compact .col-xs-11, .compact .col-sm-11, .compact .col-md-11, .compact .col-lg-11, .compact .col-xs-12, .compact .col-sm-12, .compact .col-md-12, 
+.compact .col-lg-12
+{
+    padding-right:5px;
+    padding-left:5px;
+}
+
+
+.prubehLekceLabel{
+    min-height: 0;
+    padding-left: 5px;
+    padding-bottom:0px;
+    font-weight: bold;
+}
+
+.dochazkaGrid .radio, .dochazkaGrid .checkbox{
+    margin-bottom:0px;
+}
+
+.hlavniMenu{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.largeButtons button{
+    height: 80px;
+}
+
+.mainLogo{
+    min-height: 134px;
+    /*background-image: url('images/mainLogo.png');*/
+}
+
+.width120{
+    width: 120px;
+}
+
+
+.compact .row{
+    margin-left:0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background-color: white;
+}
+
+.dochazkaCombo.rw-open{
+    /* position: absolute; */
+    /* min-width: 200px; */
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.importantNote{
+    font-size: 18px;
+}
+
+.red{
+color: indianred;
+
+}
